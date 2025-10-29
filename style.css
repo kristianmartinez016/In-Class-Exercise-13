@@ -14,7 +14,7 @@ html {
 }
 
 body {
-  width: 500px;
+  width: 600px;
   margin: 0 auto;
 }
 
@@ -29,17 +29,17 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   padding-bottom: 20px;
 }
 
 p {
-  font-size: .85rem;
+  font-size: .7rem;
   padding-bottom: 10px;
 }
 
 a {
-  font-size: .85rem;
+  font-size: .7rem;
   color: #312828;
   text-decoration: none;
 }
@@ -52,12 +52,28 @@ a:hover {
 /* Grid */
 .grid {
   display: grid;
+  grid-template: repeat(3, 300px) / repeat(2, 300px);
+  margin: 50px 0;
+}
+
+.feed-text, .friendship-text, .fun-text {
+  padding: 15px;
+}
+
+.feed-image: {
+  background-image: url("");
+}
+
+.fun-image: {
+  background-image: url("");
+}
+
+.friendship-image: {
+  background-image: url("https://i.pinimg.com/736x/ad/e5/9f/ade59f7fbcd79d5f05bd47e0c1694afd.jpg");
 }
 /* Footer */
 
 footer {
-  background-color: #312828;
   font-size: 1rem;
-  text-transform: uppercase;
-  padding: 0.5rem 1rem 0.5rem;
+  padding: 2rem 1rem;
 }
