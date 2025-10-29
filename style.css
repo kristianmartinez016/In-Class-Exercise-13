@@ -53,27 +53,34 @@ a:hover {
 .grid {
   display: grid;
   grid-template: repeat(3, 300px) / repeat(2, 300px);
-  margin: 50px 0;
 }
 
 .feed-text, .friendship-text, .fun-text {
-  padding: 15px;
+  padding: 55px 55px;
 }
 
-.feed-image: {
-  background-image: url("");
+.feed-image {
+  background-image: url("https://media.bizj.us/view/img/12627316/fnaf-x-spinatos-photo-7x5*1200xx2000-2000-400-0.png");
+  background-size: cover;
 }
 
-.fun-image: {
-  background-image: url("");
-}
-
-.friendship-image: {
+.fun-image {
   background-image: url("https://i.pinimg.com/736x/ad/e5/9f/ade59f7fbcd79d5f05bd47e0c1694afd.jpg");
+  background-size: cover;
+}
+
+.friendship-image {
+  background-image: url("https://preview.redd.it/the-fnaf-movies-halloween-horror-night-attraction-will-v0-1rmccnt58vif1.jpeg?width=1080&crop=smart&auto=webp&s=72db56377d60135c0be5ba919430fce7579b3b75");
+  background-size: cover;
 }
 /* Footer */
 
-footer {
-  font-size: 1rem;
-  padding: 2rem 1rem;
+.learn-more {
+  background-color: #312828;
+  padding: 2rem 1rem 2rem;
+}
+
+footer a {
+  color: #a5a4a4;
+  font-size: 0.55rem;
 }
