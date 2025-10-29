@@ -7,4 +7,57 @@
 html {
   font-size: 24px;
   color: #144031;
+  font-family: Helvetica;
+  background-color: #b4653a;
+  color: #312828;
+  font-size: 24px;
+}
+
+body {
+  width: 500px;
+  margin: 0 auto;
+}
+
+/* Text */
+
+h1 {
+  color: #a5a4a4;
+  background-color: #312828;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 2rem 1rem 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 20px;
+}
+
+p {
+  font-size: .85rem;
+  padding-bottom: 10px;
+}
+
+a {
+  font-size: .85rem;
+  color: #312828;
+  text-decoration: none;
+}
+
+a:hover {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Grid */
+.grid {
+  display: grid;
+}
+/* Footer */
+
+footer {
+  background-color: #312828;
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 0.5rem 1rem 0.5rem;
 }
